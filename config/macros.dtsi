@@ -2,37 +2,37 @@ macro_close_tab: macro_close_tab{
 compatible = "zmk,behavior-macro";
 label = "macro_close_tab";
 #binding-cells = <0>;
-bindings = <&kp LGUI>, <&kp W>;
+bindings = <&mt LEFT_GUI T>;
 };
 macro_new_tab: macro_new_tab{
 compatible = "zmk,behavior-macro";
 label = "macro_new_tab";
 #binding-cells = <0>;
-bindings = <&kp LGUI>, <&kp T>;
+bindings = <&mt LEFT_GUI T>;
 };
 macro_dye_right: macro_dye_right{
 compatible = "zmk,behavior-macro";
 label = "macro_dye_right";
 #binding-cells = <0>;
-bindings = <&kp RIGHT_SHIFT>, <&kp LALT>, <&kp RIGHT_ARROW>;
+bindings = <&mt LALT RIGHT_ARROW>;
 };
 macro_dye_left: macro_dye_left{
 compatible = "zmk,behavior-macro";
 label = "macro_dye_left";
 #binding-cells = <0>;
-bindings = <&kp LSHFT>, <&kp LALT>, <&kp LEFT_ARROW>;
+bindings = <&mt LALT LEFT_ARROW>;
 };
 macro_paste: macro_paste{
 compatible = "zmk,behavior-macro";
 label = "macro_paste";
 #binding-cells = <0>;
-bindings = <&kp LGUI>, <&kp V>;
+bindings = <&mt LEFT_GUI V>;
 };
 macro_copy: macro_copy{
 compatible = "zmk,behavior-macro";
 label = "macro_copy";
 #binding-cells = <0>;
-bindings = <&kp LGUI>, <&kp C>;
+bindings = <&mt LEFT_GUI C>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
