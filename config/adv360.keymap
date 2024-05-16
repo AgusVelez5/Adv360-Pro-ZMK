@@ -44,7 +44,7 @@
    &kp TAB      &kp Q     &kp W     &kp E      &kp R   &kp T             &macro_dye_left                                                                  &macro_new_tab   &kp Y   &kp U      &kp I     &kp O     &kp P   &kp BSLH
    &kp ESC      &kp A     &kp S     &kp D      &kp F   &kp G            &macro_dye_right  &kp LCTRL      &kp LGUI                  &kp RGUI  &kp RCTRL  &macro_close_tab   &kp H   &kp J      &kp K     &kp L  &kp SEMI    &kp SQT
  &kp LSHFT      &kp Z     &kp X     &kp C      &kp V   &kp B                                          &macro_copy                  &kp RALT                                &kp N   &kp M  &kp COMMA   &kp DOT  &kp FSLH  &kp RSHFT
-     &mo 2  &kp GRAVE  &kp LALT  &kp LEFT  &kp RIGHT                            &kp BSPC    &kp DEL  &macro_paste                    &tog 4  &kp ENTER         &kp SPACE          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT      &mo 2
+     &mo 2  &kp GRAVE  &kp LALT  &kp LEFT  &kp RIGHT                            &kp BSPC    &kp DEL  &macro_paste                     &to 4  &kp ENTER         &kp SPACE          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT      &mo 2
             >;
         };
 
@@ -84,7 +84,7 @@
    &kp TAB     &kp CARET     &kp GRAVE    &kp ASTERISK      &kp PERCENT        &trans             &macro_dye_left                                                                  &macro_new_tab        &kp APOS      &kp LPAR        &kp RPAR      &kp EQUAL      &kp PLUS     &trans
    &kp ESC    &kp DOLLAR        &kp AT        &kp HASH  &kp EXCLAMATION        &trans            &macro_dye_right  &kp LCTRL  &kp LEFT_GUI                  &kp RGUI  &kp RCTRL  &macro_close_tab         &kp DQT      &kp LBRC        &kp RBRC  &kp AMPERSAND     &kp MINUS     &trans
  &kp LSHFT      &kp BSLH     &kp TILDE          &kp LT           &kp GT        &trans                                          &macro_copy                  &kp RALT                               &kp UNDERSCORE      &kp LBKT        &kp RBKT       &kp PIPE     &kp SLASH  &kp RSHFT
-    &trans        &trans      &kp LALT  &kp LEFT_ARROW  &kp RIGHT_ARROW                             &kp BACKSPACE    &kp DEL  &macro_paste                    &tog 0  &kp ENTER         &kp SPACE                  &kp UP_ARROW  &kp DOWN_ARROW         &trans        &trans     &trans
+    &trans        &trans      &kp LALT  &kp LEFT_ARROW  &kp RIGHT_ARROW                             &kp BACKSPACE    &kp DEL  &macro_paste                     &to 0  &kp ENTER         &kp SPACE                  &kp UP_ARROW  &kp DOWN_ARROW         &trans        &trans     &trans
             >;
         };
 
