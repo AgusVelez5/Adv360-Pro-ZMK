@@ -1,3 +1,15 @@
+macro_ctrlp: macro_ctrlp{
+compatible = "zmk,behavior-macro";
+label = "macro_ctrlp";
+#binding-cells = <0>;
+bindings = <&sk LCTRL>, <&kp P>;
+};
+macro_ctrlf: macro_ctrlf{
+compatible = "zmk,behavior-macro";
+label = "macro_ctrlf";
+#binding-cells = <0>;
+bindings = <&sk LCTRL>, <&kp F>;
+};
 macro_close_tab: macro_close_tab{
 compatible = "zmk,behavior-macro";
 label = "macro_close_tab";
