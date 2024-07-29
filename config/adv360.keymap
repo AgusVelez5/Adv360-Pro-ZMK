@@ -81,7 +81,7 @@
         layer_Programming {
             bindings = <
     &trans  &kp NUMBER_1  &kp NUMBER_2    &kp NUMBER_3     &kp NUMBER_4  &kp NUMBER_5                   &trans                                                                          &trans  &kp NUMBER_6  &kp NUMBER_7    &kp NUMBER_8   &kp NUMBER_9  &kp NUMBER_0     &trans
-   &kp TAB     &kp CARET     &kp GRAVE    &kp ASTERISK      &kp PERCENT        &trans             &macro_ctrlf                                                                  &macro_new_tab        &kp LT      &kp LPAR        &kp RPAR      &kp EQUAL      &kp PLUS     &trans
+   &kp TAB     &kp CARET     &kp GRAVE    &kp ASTERISK      &kp PERCENT     &kp CARET             &macro_ctrlf                                                                  &macro_new_tab        &kp LT      &kp LPAR        &kp RPAR      &kp EQUAL      &kp PLUS     &trans
    &kp ESC    &kp DOLLAR        &kp AT        &kp HASH  &kp EXCLAMATION        &trans             &macro_ctrlp  &kp LCTRL  &kp LEFT_GUI                  &kp RGUI  &kp RCTRL  &macro_close_tab        &kp GT      &kp LBRC        &kp RBRC  &kp AMPERSAND     &kp MINUS     &trans
  &kp LSHFT         &none     &kp TILDE           &none         &kp BSLH        &trans                                       &macro_copy                  &kp RALT                                  &kp GRAVE      &kp LBKT        &kp RBKT       &kp PIPE     &kp UNDER  &kp RSHFT
     &trans        &trans      &kp LALT  &kp LEFT_ARROW  &kp RIGHT_ARROW                          &kp BACKSPACE    &kp DEL  &macro_paste                     &none  &kp ENTER         &kp SPACE                &kp UP_ARROW  &kp DOWN_ARROW         &trans        &trans     &trans
